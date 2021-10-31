@@ -1,6 +1,4 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head' //? When you want to use custom titles, metatags, keywords etc
 
 export default function Home() {
   return (
