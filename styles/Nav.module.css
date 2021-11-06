@@ -8,4 +8,6 @@
 .nav ul{
     flex-grow: 1;
     list-style: none;
+    display: flex;
+    justify-content: center;
 }
