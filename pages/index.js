@@ -1,4 +1,5 @@
 import Head from 'next/head' //? When you want to use custom titles, metatags, keywords etc
+import ArticleList from '../components/ArticleList'
 
 export default function Home({articles}) {
 
@@ -8,8 +9,7 @@ export default function Home({articles}) {
         <title>Welcome to the Future</title>
         <meta name="keywords" content="web development, programming" />
       </Head>
-      <h1>The Homepage</h1>
-      <h2>Components</h2>
+      <ArticleList articles={articles} />
     </div>
   )
 }
